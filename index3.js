@@ -250,24 +250,3 @@
 // }
 
 // console.log(mergeSortedArray());
-
-
-let string = '[(){()[]}]';
-
-function validPeranthisis() {
-    debugger;
-    let str = [];
-    let newstr = { '{':'}', '[':']', '(':')' };
-    for (let i of string) {
-        if (newstr[i]) {
-            str.push(i);
-        } else {
-            let last = str.pop();
-            if (newstr[last] !== i) {
-                return false;
-            }
-        }
-    }
-    return str.length === 0;
-}
-console.log(validPeranthisis());
