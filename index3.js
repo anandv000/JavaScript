@@ -110,6 +110,7 @@
 // let num = [1,2,2,3];
 // let target = 2;
 // let arr = []
+//jnjdnjd
 
 // function removeElement() {
 //     debugger
